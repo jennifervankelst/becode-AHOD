@@ -1,0 +1,11 @@
+/*Navbar*/
+.navbar-brand > img {
+    max-width: 50px;
+}
+nav.navbar.navbar-fixed-top.navbar-default {
+    height: 70px;
+}
+/*General body*/
+.container-fluid {
+    margin-top: 30px;
+}
