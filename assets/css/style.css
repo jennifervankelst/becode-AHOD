@@ -2,10 +2,79 @@
 .navbar-brand > img {
     max-width: 50px;
 }
+
 nav.navbar.navbar-fixed-top.navbar-default {
     height: 70px;
+    background-color: #FFCF37;
 }
+
 /*General body*/
+#description {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .container-fluid {
-    margin-top: 30px;
+	background-color: #D3DBDD;
+}
+.colorb, footer {
+	background-color: #052F48;
+	color: #FFFFFF;
+}
+.positionblock{
+	position: relative;
+	background-color: #D3DBDD;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: -30px;
+}
+.positionbackblock{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-top: -30px;
+}
+footer{
+	padding-top: 60px;
+	margin-top: -30px;
+}
+
+
+/*Button descendant vers le bas*/
+#gofooter{
+  display: block;
+  margin: auto;
+  background-color: #FFCF37;
+  color: #000000;
+  margin: auto;
+}
+
+/*Button montant*/
+#mybutton{
+  position: fixed;
+  z-index: 1;
+  bottom: 50px;
+  right: 10px;
+  border: none;
+  background: none;
+}
+
+#mybutton > i {
+border-radius: 50%;
+font-size: 3em;
+}
+
+button:focus{
+  outline: none;
+}
+
+#mybutton i.far.fa-arrow-alt-circle-up {
+  color: #FFCF37;
+}
+
+@media (min-width: 768px){
+  .navbar-nav{
+      float:none;
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+  }
 }
