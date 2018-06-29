@@ -19,6 +19,9 @@ nav.navbar.navbar-fixed-top.navbar-default {
 .colorb, footer {
 	background-color: #052F48;
 	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: -30px;
 }
 .positionblock{
 	position: relative;
@@ -28,8 +31,8 @@ nav.navbar.navbar-fixed-top.navbar-default {
 	margin-top: -30px;
 }
 .positionbackblock{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 	margin-top: -30px;
 }
 footer{
