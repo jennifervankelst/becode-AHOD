@@ -1,148 +1,200 @@
-
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
 
-        <!-- CSS -->
-        <link href="assets/css/reset.css" rel="stylesheet">
-        <link href="libraries/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title Page</title>
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+  <!-- CSS -->
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="libraries/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="libraries/fontawesome/css/all.css">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        <header>
-            <div class="container-fluid">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="www.caf-asbl.be"><img src="../becode-AHOD/assets/img/caf.jpg"></a>
-                        </div>
-                    
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse navbar-ex1-collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#description">Description</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Formation</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Réservation</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Horaire</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Accès</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </nav>
-                </div>
-            </div>
-        </header>
-            <div class="container-fluid">
-                <div class="container">
-                    <div id="description">
-                        <h1>Description</h1>
-                        <h2>Centre Anderlechtois de Formation asbl</h2>
+            <a class="navbar-brand" href="www.caf-asbl.be"><img src="https://image.jimcdn.com/app/cms/image/transf/dimension=157x10000:format=png/path/sed2402b514025db8/image/ia8610abafe9cc9c0/version/1470326124/image.png"></a>
+          </div>
 
-                        <p>Le Caf est un opérateur d'insertion socioprofessionnelle offrant des formations (alphabétisation, remise à niveau en math et français, et boucherie et en production industrielle) à l'attention des chercheur(euse)s d'emploi et des personnes aidées par le CPAS, dont l'objectif est de se former en vue de rechercher un emploi.</p>
-                    </div>
-                    <div>
-                        <h1>Formation</h1>
-                        <p>
-                            Formations en alphabétisation
-                            Rentrées en septembre et février.
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#Accueil">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Description">Description</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Formations">Formation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Acces+Horaire">Accès et Horraire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid colorb">
+    <div class="container" id="Accueil">
+      <div>
+        <h2>Bienvenue sur le site du CAF.</h2>
+        <button id="gofooter">Intéressé(e)? Inscrit-toi dès maintenant!</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container positionblock" id="Description">
+      <h2>Description</h2>
+      <p>Le CAF est un opérateur d'insertion socioprofessionnelle offrant des formations (alphabétisation, remise à niveau en math et français, boucherie) à l'attention des chercheur(euse)s d'emploi et des personnes aidées par le CPAS, dont l'objectif est
+        de se former en vue de retrouver un emploi.</p>
+      <p>Notre équipe, composé essentiellement de formateurs compétants et motivés, sont à l'écoute de toutes les questions.</p>
+    </div>
+  </div>
+  <div class="container-fluid colorb">
+    <div class="container positionbackblock" id="Formations">
+      <h2>Formations</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>français - mathématique</h3>
+          <ul>
+            <li>
+              <div class="Formation-what&when">
+                <p>Formations en alphabétisation</p>
+                <p>Quand? : en septembre et février</p>
+              </div>
+            </li>
+            <li>
+              <div class="Formation-what&when">
+                <p>Formations de base</p>
+                <p>Quand? : en septembre et février</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>boucherie</h3>
+          <ul>
+            <li>
+              <div class="Formation-what&when">
+                <p>Formation qualifiante de manoeuvre boucher (découpeur-désosseur)</p>
+                <p>Quand? : de janvier à août</p>
+              </div>
+            </li>
+            <li>
+              <div class="Formation-what&when">
+                <p>Formation qualifiante d 'opérateur-trice en production industrielle alimentaire</p>
+                <p>Quand? : d'avril à novembre</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container positionblock" id="Acces+Horaire">
+      <h2>Accès et Horaire</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>Accès</h3>
+          <div class="Acces-howToGo">
+            <p><b>Métro</b> : Ligne 6 ou 2 (Arrêt : Clemenceau)</p>
+            <p><b>Tram</b> : 82 ou 51 (Arrêt : Porte d'Anderlecht)</p>
+            <p><b>Bus</b> : 46 (Arrêt : Liverpool)</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>Plan d'accès</h3>
+          <div class="Acces-whereToGo">
+            <!-- Placer la map d'accès -->
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>Horaire</h3>
+          <div class="Acces-whenToGo">
+            <p>du lundi au vendredi:</p>
+            <p>de 8h30 à 12 heures</p>
+            <p>et de 13 à 17 heures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="container-fluid colorb">
+      <div class="container" id="Contact">
+        <h2>Contact</h2>
+        <form class="my-contact" action="" method="POST" role="form">
+          <legend>Contact</legend>
 
-                            Formations de base (remises à niveau en français et en math)
-                            Rentrées en septembre et février.
+          <div class="form-group">
+            <label for="myName">Nom</label>
+            <input type="text" class="form-control" id="myName" placeholder="Nom">
+          </div>
+          <div class="form-group">
+            <label for="myFirstName">Prénom</label>
+            <input type="text" class="form-control" id="myFirstName" placeholder="Prénom">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Adresse email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="mySelect">Objet:</label>
+            <select class="form-control" id="mySelect">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
 
-                            Formation qualifiante de manoeuvre boucher (découpeur-désosseur)
-                            Séances d'information en octobre
-                            Atelier de détermination ciblé sur les métiers de la boucherie en novembre.
-                            Formation de janvier à août.
 
-                             
+      </div>
+    </div>
+  </footer>
 
-                            Formation qualifiante d 'opérateur-trice en production industrielle alimentaire
-                            Séances d'information en janvier
-                            Atelier de détermination ciblé sur les métiers de la boucherie en mars.
-                            Formation d'avril à novembre.
-                            Formations en alphabétisation et formations de base
+  <!-- Js -->
+  <script src="libraries/jquery.min.js"></script>
+  <script src="libraries/bootstrap.min.js"></script>
+  <script src="assets/js/button-haut.js"></script>
+  <script src="assets/js/button-bas.js"></script>
+</body>
 
-                            Prendre contact en téléphonant au 02/523 24 16
-                            Sélection pour les sessions de formations
-                        </p>
-                        <p>
-                            Marcos Boullon Ponte, suivi psychosocial alpha et formations de base
-                            Charlotte Boux, formatrice en alphabétisation
-                            Brigitte Duyckaerts, formatrice en alphabétisation
-                            Laetitia Gobert, formatrice en formation de base (français)
-                            Ariane Verpoorten, formatrice en formation de base (français)
-                            Frédérique Jankowski, formateur en mathématiques
-                            Dominique Weemol, formateur en production alimentaire
-                            Giovanni Presti, formateur en boucherie
-                        </p>
-
-
-                    </div>
-                    <div>
-                        <h1>Horaire</h1>
-                    </div>
-                    <div>
-                        <h1>Réservation</h1>
-                    </div>
-                    <div>
-                        <h1>Accès</h1>
-                    </div>
-                    <div>
-                        <h1>Horaire</h1>
-                    </div>
-                    <div>
-                        <h1>Contact</h1>
-                        <h2>Concernant les formations</h2>
-
-                        <p>- Alphabétisation et Remise à niveau en français et en mathématiques: Prendre contact en téléphonant au 02/523 24 16
-
-                        - Manœuvre Boucher:
-                        Prendre contact en téléphonant au 02/523 24 16 (septembre)
-
-                        - Opérateur-trice en production industrielle alimentaire
-
-                        Prendre contact en téléphonant au 02/523 24 16 (décembre)</p>
-                    </div>
-                </div>
-            </div>
-        <footer>
-            
-        </footer>
-
-        <!-- Js -->
-        <script src="libraries/jquery.min.js"></script>
-        <script src="libraries/npm.js"></script>
-        <script src="libraries/bootstrap.min.js"></script>
-        <script src="libraries/jquery.min.js"></script>
-    </body>
 </html>
