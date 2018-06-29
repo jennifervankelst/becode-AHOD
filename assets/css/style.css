@@ -9,8 +9,8 @@ nav.navbar.navbar-fixed-top.navbar-default {
 }
 
 /*General body*/
-#description {
-    padding-top: 50px;
+#hautdusite {
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 .container-fluid {
@@ -39,7 +39,6 @@ footer{
 	padding-top: 60px;
 	margin-top: -30px;
 }
-
 
 /*Button descendant vers le bas*/
 #gofooter{
@@ -73,11 +72,24 @@ button:focus{
   color: #FFCF37;
 }
 
+/*Formulaire*/
+legend{
+  color: #FFFFFF;
+}
+.btn{
+  background-color: #FFCF37;
+  color: #000000;
+}
+
 @media (min-width: 768px){
   .navbar-nav{
       float:none;
       margin: 0 auto;
       display: table;
       table-layout: fixed;
+  }
+  form.my-contact {
+    width: 80%;
+    margin: auto;
   }
 }
